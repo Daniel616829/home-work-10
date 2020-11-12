@@ -7,8 +7,7 @@ html {
 }
 
 body {
-	font: 16px/1.5 Arial, Helvetica, sans-serif;
-	color: #000;
+	font: 16px/1.5 'Rubik', sans-serif;
 	background-color: #fff;
 	min-width: 320px;
 }
@@ -26,6 +25,7 @@ p, ul, ol {
 h1, h2, h3, h4, h5, h6 {
 	line-height: 1.2;
 	margin: 0 0 .5em;
+	color: #282b2f;
 }
 
 h1 {

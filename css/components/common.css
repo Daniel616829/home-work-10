@@ -26,46 +26,68 @@
 
 .form-control {
 	display: block;
-	width: 100%;
-	padding: 10px 15px;
-	border-color: green;
-	border-radius: 3px;
-	color: #000;
+    width: 100%;
+    border-radius: 5px;
+    border: solid 2px #e0e9f0;
+    background-color: #fff;
+    padding: 15px 20px;
+    font-size: 16px;
+    line-height: 1;
 }
 
 .form-control:focus {
 	outline: none;
-	border-color: #ff0;
+	border-color: rgb(112, 112, 122);
 }
 
 /* Стили для кроссбраузерности placeholder полей */
 
 .form-control::-webkit-input-placeholder {
-	color: #f00;
+	color:#bdc6ca;
 }
 
 .form-control::-moz-placeholder {
 	opacity: 1;
-	color: #f00;
+	color: black;
 }
 
 .form-control:-ms-input-placeholder {
 	color: #f00;
 }
 
+.textarea {
+    margin: 0;
+    height: 140px;
+    resize: none;
+    font-family: inherit;
+  }
+
 .btn {
-	display: inline-block;
-	vertical-align: top;
-	padding: 10px 15px;
-	border-radius: 4px;
-	background-color: #000;
-	color: #fff;
-	text-decoration: none;
-	border: none;
-	line-height: 1.5;
-	outline: none;
+	display: block;
+    background-color: #009688;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 17px 80px;
+    font-size: 18px;
+    line-height: 1;
+    cursor: pointer;
 }
 
 .btn:hover {
-	background-color: #424242;
+	background-color:#015f56;
+}
+
+.btn-2 {
+	display: block;
+    background-color: #fff;
+    color: #009688;
+    border: 3px solid;
+    border-radius: 5px;
+    padding: 17px 71px;
+    font-size: 18px;
+    line-height: 1;
+    cursor: pointer;
+    min-width: 380px;
+    min-height: 71px;
 }
